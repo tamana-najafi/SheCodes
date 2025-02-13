@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Search</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Import Axios -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+      defer
+    ></script>
+    <!-- Link to JavaScript -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Weather Search</h1>
+    <form id="search-form">
+      <input type="text" id="city-input" placeholder="Enter a city" required />
+      <button type="submit">Search</button>
+    </form>
+    <h2 id="result"></h2>
+  </body>
+</html>
